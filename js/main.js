@@ -23,6 +23,13 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $(".toggle-button2").next("ul").hide();
+    $(".toggle-button2").click(function(){
+        $(".toggle-button2").next("ul").slideToggle();
+    });
+});
+
 // initialize fitvids.js
 // Remove /* and */ to initiate the plugin
 $(document).ready(function(){
