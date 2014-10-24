@@ -113,7 +113,7 @@ footer[role="contentinfo"] {
 }
 
 footer[role="contentinfo"] p {
-	text-align: right;
+	text-align: center;
 	@include fontSize(14px);
 	padding-right: $gutters;
 }
